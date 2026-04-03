@@ -40,6 +40,7 @@ async function login(req, res, next) {
 
     return res.json({
       success: true,
+      token,
       data: { id: user.id, username: user.username, full_name: user.full_name, role: user.role, office_id: user.office_id || null },
     });
   } catch (err) {

@@ -16,12 +16,14 @@ export function AuthProvider({ children }) {
 
   async function login(username, password) {
     const res = await api.post('/auth/login', { username, password });
+    if (res.data.token) localStorage.setItem('aspo_token', res.data.token);
     setUser(res.data.data);
     return res.data.data;
   }
 
   async function logout() {
-    await api.post('/auth/logout');
+    await api.post('/auth/logout').catch(() => {});
+    localStorage.removeItem('aspo_token');
     setUser(null);
   }
 
