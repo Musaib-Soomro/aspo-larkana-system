@@ -1,0 +1,20 @@
+INSERT INTO offices (name, short_name, type, shift, tehsil, district, account_office, bps_category) VALUES
+  ('Gajanpur Town Sub Post Office',               'Gajanpur Town SPO',      'Non-Delivery', 'Day',   'Larkana',  'Larkana', 'Larkana GPO',  'BPS-09'),
+  ('District Bar Town Sub Post Office',           'District Bar Town SPO',  'Non-Delivery', 'Day',   'Larkana',  'Larkana', 'Larkana GPO',  'BPS-09'),
+  ('Rahmatpur Town Sub Post Office',              'Rahmatpur Town SPO',     'Non-Delivery', 'Day',   'Larkana',  'Larkana', 'Larkana GPO',  'BPS-09'),
+  ('Lahori Muhalla Town Sub Post Office',         'Lahori Muhalla Town SPO','Non-Delivery', 'Day',   'Larkana',  'Larkana', 'Larkana GPO',  'BPS-09'),
+  ('Commissionary Town Sub Post Office',          'Commissionary Town SPO', 'Non-Delivery', 'Day',   'Larkana',  'Larkana', 'Larkana GPO',  'BPS-09'),
+  ('Chandka Medical College Town Sub Post Office','CMC Town SPO',           'Delivery',     'Day',   'Larkana',  'Larkana', 'Larkana GPO',  'BPS-09'),
+  ('Ratodero Sub Post Office',                    'Ratodero SPO',           'Delivery',     'Day',   'Ratodero', 'Larkana', 'Ratodero GPO', 'BPS-09'),
+  ('Banguldero Sub Post Office',                  'Banguldero SPO',         'Delivery',     'Day',   'Ratodero', 'Larkana', 'Ratodero GPO', 'BPS-09'),
+  ('Pir Bux Bhutto Sub Post Office',              'Pir Bux Bhutto SPO',     'Delivery',     'Day',   'Ratodero', 'Larkana', 'Ratodero GPO', 'BPS-09'),
+  ('Garhi Khuda Bux Bhutto Sub Post Office',      'Garhi Khuda Bux SPO',   'Delivery',     'Day',   'Ratodero', 'Larkana', 'Ratodero GPO', 'BPS-09'),
+  ('Naudero Sub Post Office',                     'Naudero SPO',            'Delivery',     'Day',   'Ratodero', 'Larkana', 'Ratodero GPO', 'BPS-09'),
+  ('Naudero Night Sub Post Office',               'Naudero Night SPO',      'Non-Delivery', 'Night', 'Ratodero', 'Larkana', 'Ratodero GPO', 'BPS-09'),
+  ('Garello Sub Post Office',                     'Garello SPO',            'Delivery',     'Day',   'Dokri',    'Larkana', 'Dokri SO',     'BPS-09'),
+  ('Dokri Sub Post Office',                       'Dokri SPO',              'Delivery',     'Day',   'Dokri',    'Larkana', 'Dokri SO',     'BPS-09'),
+  ('Cadet College Larkana Sub Post Office',       'Cadet College SPO',      'Delivery',     'Day',   'Dokri',    'Larkana', 'Dokri SO',     'BPS-09'),
+  ('Moen Jo Daro Sub Post Office',                'Moen Jo Daro SPO',       'Delivery',     'Day',   'Dokri',    'Larkana', 'Dokri SO',     'BPS-09'),
+  ('Badah Sub Post Office',                       'Badah SPO',              'Delivery',     'Day',   'Dokri',    'Larkana', 'Dokri SO',     'BPS-09'),
+  ('Bakrani Sub Post Office',                     'Bakrani SPO',            'Delivery',     'Day',   'Bakrani',  'Larkana', 'Bakrani SO',   'BPS-09')
+ON CONFLICT DO NOTHING;
